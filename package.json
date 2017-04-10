@@ -1,0 +1,48 @@
+{
+  "name": "spy-object",
+  "version": "0.0.0",
+  "description": "Angular X spy object (mock, stub) helper",
+  "main": "lib",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "npm run t",
+    "clean": "rm -rf lib",
+    "pretest": "npm run build",
+    "build": "npm run clean && npm run compile",
+    "compile": "tsc",
+    "compile:w": "tsc -w",
+    "t": "npm run mocha -- src/*.spec.ts",
+    "test:w": "npm run mocha -- --watch src/*.ts --watch-extensions ts",
+    "mocha": "ts-node node_modules/mocha/bin/_mocha",
+    "up": "updtr --test-stdout --save-exact -R simple --test \"npm run t\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "spy",
+    "spy-object",
+    "angularx"
+  ],
+  "license": "Xnet",
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "mocha": "3.2.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.5.47"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/spy-object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unlight/spy-object/issues"
+  },
+  "homepage": "https://github.com/unlight/spy-object#readme"
+}
