@@ -1,6 +1,6 @@
 {
   "name": "spy-object",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Angular X spy object (mock, stub) helper",
   "main": "lib",
   "typings": "lib/index.d.ts",
@@ -29,8 +29,6 @@
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
     "mocha": "3.2.0",
-    "ts-node": "^3.0.2",
-    "typescript": "^2.2.2",
     "ts-node": "^3.0.2",
     "typescript": "^2.2.2"
   },
